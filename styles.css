@@ -1,0 +1,73 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/gluttony-photos/galaxy.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: rgb(19, 23, 60);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+#question {
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.btn-grid {
+    display: grid;
+    gap: 5px;
+    margin: 20px 0;
+}
+#answer-buttons {
+    font-size: 50px;
+}
+.btn {
+    font-size: 20px;
+    height: 80px;
+    border: 2px solid;
+    background-color: rgb(130, 152, 190);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: 1px;
+}
+
+/* why is this not working */
+.btn:hover {
+    color: white;
+}
+
+.start-btn, .next-btn {
+    background-color: rgb(111, 169, 250);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

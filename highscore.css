@@ -1,0 +1,44 @@
+body {
+background-color: rgb(9, 9, 47);
+}
+.stellar {
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("/gluttony-photos/stellar.webp");
+    background-position: center;
+    background-size: cover;
+}
+.wrapper {
+    border: 5px solid pink;
+    background-color: rgb(231, 176, 105);
+}
+h1 {
+    color: rgb(223, 210, 210);
+}
+
+.flip-it {
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    background-image: url("/gluttony-photos/stellar.webp");
+    background-position: center;
+    background-size: cover;
+    transform: scaleY(-1);    
+}
+
+@media (max-width: 690px) {
+    img {
+      height: 500px;
+    }
+  
+    #password {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    img {
+        height: 500px;
+      }
+  }

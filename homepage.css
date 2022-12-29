@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: rgb(40, 12, 12);
+}
+.headspace {
+    color: rgb(139, 41, 41);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Chalkduster, fantasy;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.sawdoll {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    background-image: url(/gluttony-photos/shadow-puppet.webp);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid rgb(89, 4, 4);
+}
+
+.controls {
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#btn {
+    color: rgb(129, 18, 18);
+    background-color: black;
+    font-family: chalkduster, fantasy;
+    font-size: 30px;
+   
+   
+}
+
+@media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  
+    #password {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .btn {
+      font-size: 0.8rem;
+    }
+  }
